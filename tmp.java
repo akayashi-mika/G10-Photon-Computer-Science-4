@@ -6,7 +6,7 @@ public class tmp {
     public static void main(String[] args) {
         int     x   =   10;
         float   y   =   5;
-        out.println("Hello World");
+        out.println("IM NOT A FURRY FFS");
         out.println(x);
         out.println(y);
         out.println(x + y);
