@@ -11,4 +11,4 @@ fi
 git pull
 git add .
 git commit -q -S -m "Last Sync: $(date +"%Y-%m-%d %H:%M:%S")"
-git push -q origin main
+git push -q -v origin main
