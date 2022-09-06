@@ -3,6 +3,8 @@ public class tmp {
         int     x   =   10;
         float   y   =   5;
         System.out.println("Hello World");
+        System.out.println(x);
+        System.out.println(y);
         System.out.println(x + y);
     }
 }
