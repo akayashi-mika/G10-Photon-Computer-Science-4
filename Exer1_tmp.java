@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Exer1_tmp {
     public static void main(String[] args) {
         int     num;
@@ -35,9 +34,9 @@ public class Exer1_tmp {
         // Then divide it by 100 to remove the trailing zeroes
         // What remains is your HUNDREDS digit
 
+        // Print the HUNDREDS, TENS, UNITS digit of your 3-digit number
         System.out.println("Hundreds digit: " + hundreds);
         System.out.println("Tens digit: " + tens);
         System.out.println("Units digit: " + units);
     }
-
 }
