@@ -15,7 +15,7 @@ public class stuff {
         String  string      =   "abbcccdddd eeeeeffffff";   // The "String" datatype can store MULTIPLE characters
 
 
-        int     three_digit_number;     // This is important kay we need to introduce the variable "num" to our program before we can use it
+        int     three_digit_number;     // This is important kay we need to introduce the variable "three_digit_number" to our program before we can use it
                                         // Without this, the code wouldn't know what the "three_digit_number" variable is since we failed to introduce it first
         int     units;
         int     tens;
