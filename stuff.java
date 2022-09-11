@@ -33,6 +33,10 @@ public class stuff {
         System.out.println("This is a \"double\": " + doublee);
         System.out.println("This is a \"char\": " + character);
         System.out.println("This is a \"String\": " + string);
+        // By default, "" are used to enclose text
+        // So if gusto mo mag gamit sang "" inside the "", you have to prefix the "\" symbol before the quotation marks
+        // Check this post if you want to learn more Escape Sequences
+        // https://stackoverflow.com/questions/1367322/what-are-all-the-escape-characters#1367339
 
 
 
