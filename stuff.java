@@ -1,4 +1,8 @@
-import java.rmi.server.UnicastRemoteObject;
+import java.rmi.server.UnicastRemoteObject; // I honestly don't know why this is here
+                                            // I don't know what it does either
+                                            // But I'm too scared to remove it
+                                            // So here it will remain
+                                            // Just ignore this line ah
 import java.util.Scanner;
 
 public class stuff {
