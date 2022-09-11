@@ -1,5 +1,4 @@
 import java.io.PrintStream;
-import java.rmi.server.UnicastRemoteObject;
 import java.util.Scanner;
 
 public class Exer1 {
