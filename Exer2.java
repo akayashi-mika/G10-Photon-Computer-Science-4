@@ -49,6 +49,7 @@ public class Exer2 {
                 if (tens <= hundreds) {
                     System.out.println(units + " " + tens + " " + hundreds);
                 }
+                // Units is the smallest number
     
                 else {
                     System.out.println(units + " " + hundreds + " " + tens);
@@ -64,7 +65,7 @@ public class Exer2 {
             }
     
             else if (units >= tens && units >= hundreds) {
-                if (tens >= hundreds) {
+                if (tens <= hundreds) {
                     System.out.println(hundreds + " " + tens + " " + units);
                 }
     
