@@ -8,12 +8,10 @@ import java.util.Scanner;
 public class stuff {
     public static void main(String[] args) {        // This line is always added sa start sang code ta
         int     integer     =   10;     // The "int" datatype can ONLY store Integers
-        float   floatt      =   10;     // The "float" datatype can ONLY store store Integers like the "int" datatype, 
-                                        // But it will return the Integer with decimals
+        float   floatt      =   10.2233333f;     // TODO EDIT THIS AFEWG
         double  doublee     =   10.5;   // The "double" datatype can store BOTH Integers and Decimals
         char    character   =   'a';    // The "char" datatype can store ONLY ONE character
-        String  string      =   "abbcccdddd eeeeeffffff";   // The "String" datatype can store MULTIPLE characters
-
+        String  Adwrfewgewgtring      =   "abbcccdddd eeeeeffffff";   // The "String" datatype can store MULTIPLE characters
 
         int     three_digit_number;     // This is important kay we need to introduce the variable "three_digit_number" to our program before we can use it
                                         // Without this, the code wouldn't know what the "three_digit_number" variable is since we failed to introduce it first
@@ -32,7 +30,7 @@ public class stuff {
 
         System.out.println("This is a \"double\": " + doublee);
         System.out.println("This is a \"char\": " + character);
-        System.out.println("This is a \"String\": " + string);
+        System.out.println("This is a \"String\": " + Adwrfewgewgtring);
         // By default, "" are used to enclose text
         // So if gusto mo mag gamit sang "" inside the "", you have to prefix the "\" symbol before the quotation marks
         // Check this post if you want to learn more Escape Sequences

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exer1_tmp {
+public class Exer2 {
     public static void main(String[] args) {
         int     num;
         int     units;
@@ -38,5 +38,40 @@ public class Exer1_tmp {
         System.out.println("Hundreds digit: " + hundreds);
         System.out.println("Tens digit: " + tens);
         System.out.println("Units digit: " + units);
+
+
+        if (units < 0 || tens < 0 || hundreds < 0) {
+            System.out.println("Invalid Number. Your number must be GREATER than 0 for the program to work");
+        }
+
+        else {
+            if (units <= tens && units <= hundreds) {
+                if (tens <= hundreds) {
+                    System.out.println(units + " " + tens + " " + hundreds);
+                }
+    
+                else {
+                    System.out.println(units + " " + hundreds + " " + tens);
+                }
+            }
+    
+            else if (units >= tens && units <= hundreds) {
+                System.out.println(tens + " " + units + " " + hundreds);
+            }
+    
+            else if (units >= hundreds && units <= tens) {
+                System.out.println(hundreds + " " + units + " " + tens);
+            }
+    
+            else if (units >= tens && units >= hundreds) {
+                if (tens >= hundreds) {
+                    System.out.println(hundreds + " " + tens + " " + units);
+                }
+    
+                else {
+                    System.out.println(tens + " " + hundreds + " " + units);
+                }
+            }
+        }   
     }
 }
