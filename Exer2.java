@@ -45,34 +45,33 @@ public class Exer2 {
         }
 
         else {
-            if (units <= tens && units <= hundreds) {
-                if (tens <= hundreds) {
+            if (units >= hundreds && units >= tens) {
+                if (tens >= hundreds) {
                     System.out.println(units + " " + tens + " " + hundreds);
                 }
-                // Units is the smallest number
-    
+
                 else {
                     System.out.println(units + " " + hundreds + " " + tens);
                 }
             }
-    
+
             else if (units >= tens && units <= hundreds) {
-                System.out.println(tens + " " + units + " " + hundreds);
-            }
-    
-            else if (units >= hundreds && units <= tens) {
                 System.out.println(hundreds + " " + units + " " + tens);
             }
-    
-            else if (units >= tens && units >= hundreds) {
-                if (tens <= hundreds) {
-                    System.out.println(hundreds + " " + tens + " " + units);
+
+            else if (units >= hundreds && units <= tens) {
+                System.out.println(tens + " " + units + " " + hundreds);
+            }
+
+            else {
+                if (tens >= hundreds) {
+                    System.out.println(units + " " + tens + " " + hundreds);
                 }
-    
+
                 else {
-                    System.out.println(tens + " " + hundreds + " " + units);
+                    System.out.println(units + " " + hundreds + " " + tens);
                 }
             }
-        }   
+        }
     }
 }
