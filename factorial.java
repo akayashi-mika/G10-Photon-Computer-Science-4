@@ -1,13 +1,14 @@
 import java.security.DrbgParameters.Reseed;
 import java.util.Scanner;
 
+import javax.swing.JSpinner.NumberEditor;
+
 public class factorial {
     public static void main(String[] args) {
         Scanner input   =   new Scanner(System.in);
 
         double number;
         double succeeding_number;
-        double ans;
 
         System.out.println("n!");
         System.out.print("Enter the value of n: ");
