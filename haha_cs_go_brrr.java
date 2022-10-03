@@ -5,17 +5,25 @@ public class haha_cs_go_brrr {
     public static void main(String[] args) {
         Scanner input   =   new Scanner(System.in);
 
-        double firstNumber;
-        double secondNumber;
-        double res;
+        double base;
+        double y;
+        double exponent;
 
         System.out.print("Enter the base: ");
-        firstNumber     =   input.nextInt();
+        base     =   input.nextInt();
 
         System.out.print("Enter the exponent: ");
-        secondNumber    =   input.nextInt();
+        exponent    =   input.nextInt();
 
-        res =   Math.pow(firstNumber, secondNumber);
-        System.out.println(res);
+        y = base + 0;
+
+        // System.out.println(Math.pow(base, exponent));
+
+        double res = 1;
+        while (res < exponent) {
+            base = base * y;
+            res++;
+        } System.out.println(base);
     }
 }
+
