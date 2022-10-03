@@ -1,7 +1,4 @@
-import java.security.DrbgParameters.Reseed;
 import java.util.Scanner;
-
-import javax.swing.JSpinner.NumberEditor;
 
 public class factorial {
     public static void main(String[] args) {
