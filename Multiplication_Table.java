@@ -3,7 +3,7 @@ import java.util.Scanner;
 import javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager;
 import javax.swing.plaf.synth.ColorType;
 
-public class halo_asfhgjfj {
+public class Multiplication_Table {
     public static void main(String[] args) {
         Scanner input   =   new Scanner(System.in);
 
