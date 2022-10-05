@@ -1,7 +1,7 @@
 import java.security.DrbgParameters.Reseed;
 import java.util.Scanner;
 
-public class haha_cs_go_brrr {
+public class Exponents {
     public static void main(String[] args) {
         Scanner input   =   new Scanner(System.in);
 
