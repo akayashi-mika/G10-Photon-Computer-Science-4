@@ -9,13 +9,19 @@ public class beauty_contest {
         int     question_number;
         int     number_of_questions;
         int     question;
+        String  message;
 
         System.out.print("Enter the number of questions to be asked: ");
-        // number_of_questions =   sc.nextInt();
-        number_of_questions =   6;
+        number_of_questions =   sc.nextInt();
+        // number_of_questions =   6;
 
-        for (question_number = 0; question_number <= number_of_questions; question_number++) {
-            question    =   randr.nextInt(6)+1;
+        System.out.print("");
+        message = sc.nextLine();
+        // for (question_number = 0; question_number <= number_of_questions; question_number++) 
+        for (int counter = 0; counter < number_of_questions; counter++) {
+            System.out.print("");
+            message = sc.nextLine();            
+            question    =   randr.nextInt(number_of_questions)+1;
             switch(question) {
                 case 1: 
                     System.out.println("What are your thoughts on Abortion?");
@@ -36,13 +42,7 @@ public class beauty_contest {
                 case 5: 
                     System.out.println("Do you think you got what it takes to win the pageant");
                     break;
-
-                case 6:
-                    System.out.println("Sir watch this sir heh:) https://youtu.be/dQw4w9WgXcQ");
-                    System.out.println("        ‎‎‎⣠⣤⣤⣤⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" + "\n" + " ⠀⠀⠀⠀⠀⢰⡿⠋⠁⠀⠀⠈⠉⠙⠻⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ " + "\n" + " ⠀⠀⠀⠀⢀⣿⠇⠀⢀⣴⣶⡾⠿⠿⠿⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ " + "\n" + " ⠀⠀⣀⣀⣸⡿⠀⠀⢸⣿⣇⠀⠀⠀⠀⠀⠀⠙⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ " + "\n" + " ⠀⣾⡟⠛⣿⡇⠀⠀⢸⣿⣿⣷⣤⣤⣤⣤⣶⣶⣿⠇⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀ " + "\n" + " ⢀⣿⠀⢀⣿⡇⠀⠀⠀⠻⢿⣿⣿⣿⣿⣿⠿⣿⡏⠀⠀⠀⠀⢴⣶⣶⣿⣿⣿⣆ " + "\n" + " ⢸⣿⠀⢸⣿⡇⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀⠀⣿⡇⣀⣠⣴⣾⣮⣝⠿⠿⠿⣻⡟ " + "\n" + " ⢸⣿⠀⠘⣿⡇⠀⠀⠀⠀⠀⠀⠀⣠⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠉⠀ " + "\n" + " ⠸⣿⠀⠀⣿⡇⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠉⠀⠀⠀⠀ ⠀\n  ⠻⣷⣶⣿⣇⠀⠀⠀⢠⣼⣿⣿⣿⣿⣿⣿⣿⣛⣛⣻⠉⠁⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀ \n     ⢸⣿⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀ ⠀⠀ ⠀⠀⠀⠀\n     ⢸⣿⣀⣀⣀⣼⡿⢿⣿⣿⣿⣿⣿⡿⣿⣿⡿⠀");
-                    break;
-                }
-
+            }
         }
     }
 }
