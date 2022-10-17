@@ -12,6 +12,6 @@ public class fesrs {
             array[counter] = integer;
         }
 
-        System.out.println("The Integers are:" + Arrays.toString(array));
+        System.out.println("The Integers are: " + Arrays.toString(array));
     }
 }

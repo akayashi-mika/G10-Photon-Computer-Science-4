@@ -12,8 +12,6 @@ public class money {
         money   =   sc.nextInt();
         originalMoney   =   money;
 
-
-
         if (money > 0) {
             oneThousand =   money / 1000;
             money       =   money - 1000 * oneThousand;
