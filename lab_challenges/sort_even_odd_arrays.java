@@ -25,7 +25,7 @@ public class sort_even_odd_arrays {
         System.out.print("Even Numbers: [");
         for (int even_numbers_index  =   0; even_numbers_index < even_numbers.size(); even_numbers_index++) {
             System.out.print(even_numbers.get(even_numbers_index) + ",");
-        } System.out.print("]\n\n");
+        } System.out.print("]\n");
 
         System.out.print("Odd Numbers: [");
         for (int odd_numbers_index  =   0; odd_numbers_index < odd_numbers.size(); odd_numbers_index++) {
