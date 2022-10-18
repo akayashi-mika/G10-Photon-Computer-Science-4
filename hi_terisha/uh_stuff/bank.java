@@ -1,8 +1,6 @@
 package hi_terisha.uh_stuff;
 import java.util.Scanner;
 
-import javax.swing.JSpinner.DefaultEditor;
-
 public class bank {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
