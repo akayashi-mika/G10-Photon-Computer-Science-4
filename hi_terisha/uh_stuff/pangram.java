@@ -1,6 +1,5 @@
 package hi_terisha.uh_stuff;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class pangram {
@@ -26,7 +25,6 @@ public class pangram {
             char    sentence_individual_characters[]    =   sentence.replaceAll(" ", "").toCharArray();
             System.out.println(sentence.length());
             for (int SIC_index = 0; SIC_index < sentence.replaceAll(" ", "").length(); SIC_index++) {
-
                 // System.out.println("Start of program 1");       
                 alphabet_index = 0;  // Reset the value of alphabet_index
 
@@ -55,7 +53,7 @@ public class pangram {
 
             for (alphabet_index = 0; alphabet_index < alphabet.length; alphabet_index++) {
                 if (alphabet[alphabet_index] != ' ') {
-                    System.out.println(Arrays.toString(alphabet) + "The sentence is NOT a Pangram\nError 2");
+                    System.out.println(Arrays.toString(alphabet) + "\nThe sentence is NOT a Pangram");
                     System.exit(0);
                 }
             }
