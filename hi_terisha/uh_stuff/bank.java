@@ -10,14 +10,13 @@ public class bank {
 
             int attempts    =   1;
             while (userPasscode !=  correctPasscode) {
-
                 if (attempts    ==  3) {
                     System.out.print("Account Blocked");
                     System.exit(0);
                 }
 
                 attempts++;
-                System.out.print("\nAttempts: " + attempts + "/3\nWrong Passcode. Please Try Again\nPasscode: ");
+                System.out.print("\nAttempt: " + attempts + "/3\nWrong Passcode. Please Try Again\nPasscode: ");
                 userPasscode    =   input.nextInt();
             }
 
@@ -55,3 +54,7 @@ public class bank {
         }
     }
 }
+
+
+
+
