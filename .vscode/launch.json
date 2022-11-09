@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch FINAL2",
+            "request": "launch",
+            "mainClass": "FINAL2",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch LENA_OMG_IS_THAT_YOU_WOW_POG",
+            "request": "launch",
+            "mainClass": "LENA_MANIBA_LENA_MANINBA.LENA_OMG_IS_THAT_YOU_WOW_POG",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch haha_scissors_lmao",
+            "request": "launch",
+            "mainClass": "LENA_MANIBA_LENA_MANINBA.haha_scissors_lmao",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch random_numbers_whyyyyy_I_MISSED_THE_EVENT",
+            "request": "launch",
+            "mainClass": "LENA_MANIBA_LENA_MANINBA.random_numbers_whyyyyy_I_MISSED_THE_EVENT",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch random_stuff",
+            "request": "launch",
+            "mainClass": "LENA_MANIBA_LENA_MANINBA.random_stuff",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch rps",
+            "request": "launch",
+            "mainClass": "hi_terisha.uh_stuff.rps",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircleTester",
+            "request": "launch",
+            "mainClass": "tmp.CircleTester",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch DogTester",
+            "request": "launch",
+            "mainClass": "tmp.DogTester",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        }
+    ]
+}
