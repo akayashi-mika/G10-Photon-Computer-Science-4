@@ -42,7 +42,7 @@ public class random_stuff {
             int alphabet_index  =   randr.nextInt(26);
             if (alphabet[alphabet_index]    ==  ' ') {
                 random_letters_index    -=  1;
-                continue;
+                break;
             }
             random_letters[random_letters_index]    =   alphabet[alphabet_index];
             alphabet[alphabet_index]    =   ' ';
