@@ -7,13 +7,11 @@ public class Exer2 {
         int     tens;
         int     hundreds;
 
-        Scanner input   =   new Scanner(System.in);
-        // Introduces the "input" function to the program
-
-        System.out.print("Enter a 3-digit number: ");
-        num =   input.nextInt();
-        // Asks the user for a 3-digit number
-
+        try (Scanner input = new Scanner(System.in)) {
+			System.out.print("Enter a 3-digit number: ");
+			num =   input.nextInt();
+			// Asks the user for a 3-digit numbers
+		}
 
         units       =   num % 10;
         // The 10th modulo of any number is always its UNITS digit
@@ -45,33 +43,34 @@ public class Exer2 {
         }
 
         else {
-            if (units >= hundreds && units >= tens) {
-                if (tens >= hundreds) {
+            if (units <= tens && units <= hundreds) {
+                if (tens <= hundreds) {
                     System.out.println(units + " " + tens + " " + hundreds);
                 }
-
+                // Units is the smallest number
+    
                 else {
                     System.out.println(units + " " + hundreds + " " + tens);
                 }
             }
-
+    
             else if (units >= tens && units <= hundreds) {
-                System.out.println(hundreds + " " + units + " " + tens);
-            }
-
-            else if (units >= hundreds && units <= tens) {
                 System.out.println(tens + " " + units + " " + hundreds);
             }
-
-            else {
+    
+            else if (units >= hundreds && units <= tens) {
+                System.out.println(hundreds + " " + units + " " + tens);
+            }
+    
+            else if (units >= tens && units >= hundreds) {
                 if (tens >= hundreds) {
-                    System.out.println(units + " " + tens + " " + hundreds);
+                    System.out.println(hundreds + " " + tens + " " + units);
                 }
-
+    
                 else {
-                    System.out.println(units + " " + hundreds + " " + tens);
+                    System.out.println(tens + " " + hundreds + " " + units);
                 }
             }
-        }
+        }   
     }
 }

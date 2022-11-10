@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch pangram",
+            "request": "launch",
+            "mainClass": "hi_terisha.uh_stuff.pangram",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch fesrs",
+            "request": "launch",
+            "mainClass": "hi_terisha.uh_stuff.fesrs",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch bank",
+            "request": "launch",
+            "mainClass": "LabActivitiesPair_Lena.bank",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch bank",
+            "request": "launch",
+            "mainClass": "hi_terisha.uh_stuff.bank",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_of_even_numbers",
+            "request": "launch",
+            "mainClass": "hi_terisha.sum_of_even_numbers",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch Loops_SumOfEvenNumbers",
+            "request": "launch",
+            "mainClass": "hi_terisha.Loops_SumOfEvenNumbers",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch ascending_numbers",
+            "request": "launch",
+            "mainClass": "lab_challenges.ascending_numbers",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch sort_even_odd_arrays",
+            "request": "launch",
+            "mainClass": "lab_challenges.sort_even_odd_arrays",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

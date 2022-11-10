@@ -53,7 +53,7 @@ public class pangram {
 
             for (alphabet_index = 0; alphabet_index < alphabet.length; alphabet_index++) {
                 if (alphabet[alphabet_index] != ' ') {
-                    System.out.println(Arrays.toString(alphabet) + "\nThe sentence is NOT a Pangram");
+                    System.out.println("The unused letters are: " + Arrays.toString(alphabet) + "\nThe sentence is NOT a Pangram");
                     System.exit(0);
                 }
             }
