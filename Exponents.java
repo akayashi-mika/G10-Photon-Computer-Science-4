@@ -1,4 +1,3 @@
-import java.security.DrbgParameters.Reseed;
 import java.util.Scanner;
 
 public class Exponents {

@@ -33,13 +33,15 @@ public class Exer1 {
 
 
 
-        Scanner input   =   new Scanner(System.in);     // Introduces the "input" function to the program
-                                                        // The variable name "input" is interchangeable 
-        System.out.print("\nEnter a 3-digit number: "); // The "\n" adds a new line before the text
-        three_digit_number =   input.nextInt();         // This will ask the user for their input
-                                                        // Then store it in the variable "three_digit_number"
-                                                        // You can change the variable name to anything you want
-                                                        // NOTE that it's the "input.nextInt();" that will ask the user for their input, not the "System.out.print()"
+        try (Scanner input = new Scanner(System.in)) {
+            // The variable name "input" is interchangeable 
+      System.out.print("\nEnter a 3-digit number: "); // The "\n" adds a new line before the text
+      three_digit_number =   input.nextInt();         // This will ask the user for their input
+            // Then store it in the variable "three_digit_number"
+            // You can change the variable name to anything you want
+            // NOTE that it's the "input.nextInt();" that will ask the user for their input, not the "System.out.print()"
+        }
+                                                        
 
 
                                                         
