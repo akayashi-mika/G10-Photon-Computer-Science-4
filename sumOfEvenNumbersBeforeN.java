@@ -1,5 +1,5 @@
-package hi_terisha;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class sumOfEvenNumbersBeforeN {
     public static void main(String[] args) {
