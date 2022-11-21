@@ -7,7 +7,7 @@ public class bank {
         try (Scanner input = new Scanner(System.in)) {
             System.out.print("Attempts: 1/3\nPasscode: ");
             int userPasscode    =   input.nextInt();
-            int correctPasscode =   69420;
+            int correctPasscode =   12345;
 
             int attempts    =   1;
             while (userPasscode !=  correctPasscode) {

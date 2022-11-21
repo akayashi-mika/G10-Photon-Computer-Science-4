@@ -2,7 +2,7 @@ package LabChallenges;
 
 import java.util.Random;
 
-public class randomized_questions_without_repetition {
+public class randomizedQuestionsWithoutRepetition {
     public static void main(String[] args) {
         Random  randr   =   new Random();
         String questions[]  =   {

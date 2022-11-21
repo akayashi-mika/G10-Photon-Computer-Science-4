@@ -11,7 +11,8 @@ public class randomLetters {
             // Ask the user for the number of random letters it wants
                 // Must be <=27
             System.out.print("How many random letters to print?\nNote that it must be LESS THAN OR EQUAL TO 26\n> ");
-            int n   =   input.nextInt();
+            // int n   =   input.nextInt();
+            int n   =   26;
             if (n > 26) System.exit(0);
 
             // Make an array that will contain the n random letters

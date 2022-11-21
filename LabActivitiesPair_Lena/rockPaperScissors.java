@@ -3,7 +3,7 @@ package LabActivitiesPair_Lena;
 import java.util.Random;
 import java.util.Scanner;
 
-public class rock_paper_scissors {
+public class rockPaperScissors {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             Random  randr   =   new Random();

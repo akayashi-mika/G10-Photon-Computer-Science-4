@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch descendingNumbers",
+            "request": "launch",
+            "mainClass": "LabChallenges.descendingNumbers",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch randomizedQuestionsWithoutRepetition",
+            "request": "launch",
+            "mainClass": "LabChallenges.randomizedQuestionsWithoutRepetition",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch ascendingNumbers",
+            "request": "launch",
+            "mainClass": "LabChallenges.ascendingNumbers",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch randomLetters",
+            "request": "launch",
+            "mainClass": "LabActivitiesPair_Lena.randomLetters",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch randomNumbers",
+            "request": "launch",
+            "mainClass": "LabActivitiesPair_Lena.randomNumbers",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch rockPaperScissors",
+            "request": "launch",
+            "mainClass": "LabActivitiesPair_Lena.rockPaperScissors",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
+            "name": "Launch sort_even_odd_arrays",
+            "request": "launch",
+            "mainClass": "LabChallenges.sort_even_odd_arrays",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
             "name": "Launch pangram",
             "request": "launch",
             "mainClass": "hi_terisha.uh_stuff.pangram",

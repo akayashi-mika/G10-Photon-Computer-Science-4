@@ -3,7 +3,7 @@ package LabChallenges;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ascending_numbers {
+public class descendingNumbers {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("How many numbers to store in the array: ");
@@ -17,7 +17,19 @@ public class ascending_numbers {
             } 
 
             Arrays.sort(array_of_numbers);
-            System.out.println(Arrays.toString(array_of_numbers));
+            for (int i  =   0; i < array_of_numbers.length / 2; i++) {
+                int start   =   array_of_numbers[i];
+                array_of_numbers[i] =   array_of_numbers[array_of_numbers.length - i - 1];
+                array_of_numbers[array_of_numbers.length - i - 1] = start;
+            } System.out.println(Arrays.toString(array_of_numbers));  
+
         }
+    }
+
+    public int foo(int... args) {
+        int sum = 0;
+        for (int arg    :   args) {
+            sum +=  arg;
+        } return sum;
     }
 }
