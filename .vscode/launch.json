@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QuizActivity",
+            "request": "launch",
+            "mainClass": "LabChallenge1.QuizActivity",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
             "name": "Launch descendingNumbers",
             "request": "launch",
             "mainClass": "LabChallenges.descendingNumbers",
