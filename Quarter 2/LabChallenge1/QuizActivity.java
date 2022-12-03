@@ -290,7 +290,19 @@ public class QuizActivity extends JFrame {
                     tenthStatus.setText("X");
                 }
 
+                
+                if (score >= 8) {
+                    stat    =   "SMARTTTT";
+                } else if (score >= 4) {
+                    stat    =   "Smart Enough to pass";
+                } else if (score >= 2) {
+                    stat    =   "get gud";
+                } else {
+                    stat    =   "hopeless";
+                }
+                Status.setText(stat);
                 Score.setText(Integer.toString(score));
+
             }
         }
     }
