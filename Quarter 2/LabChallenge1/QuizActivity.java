@@ -208,12 +208,12 @@ public class QuizActivity extends JFrame {
 
     public static void main(String[] args) {
         QuizActivity Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee = new QuizActivity();
-        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setLayout(new FlowLayout(FlowLayout.LEFT, 50, 50))
-            .setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
-            .setSize(340, 1000)
-            .setLocation(300, 300)
-            .getContentPane().setBackground(new Color(100, 204, 255))
-            .setVisible(true);
+        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setLayout(new FlowLayout(FlowLayout.LEFT, 50, 50));
+        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setSize(340, 1000);
+        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setLocation(300, 300);
+        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.getContentPane().setBackground(new Color(100, 204, 255));
+        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setVisible(true);
     }
 
     private class handler implements ActionListener {
