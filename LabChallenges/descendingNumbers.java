@@ -22,7 +22,6 @@ public class descendingNumbers {
                 array_of_numbers[i] =   array_of_numbers[array_of_numbers.length - i - 1];
                 array_of_numbers[array_of_numbers.length - i - 1] = start;
             } System.out.println(Arrays.toString(array_of_numbers));  
-            array_of_numbers.foo();
         }
     }
 
