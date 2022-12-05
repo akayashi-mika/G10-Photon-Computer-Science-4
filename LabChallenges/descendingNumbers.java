@@ -14,9 +14,8 @@ public class descendingNumbers {
             for (int index = 0; index < number_of_questions; index++) {
                 System.out.print("Enter Number " + (index + 1) + ": ");
                 array_of_numbers[index] = sc.nextInt();
-            } 
-
-            Arrays.sort(array_of_numbers);
+            } Arrays.sort(array_of_numbers);
+            
             for (int i  =   0; i < array_of_numbers.length / 2; i++) {
                 int start   =   array_of_numbers[i];
                 array_of_numbers[i] =   array_of_numbers[array_of_numbers.length - i - 1];
