@@ -1,4 +1,4 @@
-package LabChallenge1;
+
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
