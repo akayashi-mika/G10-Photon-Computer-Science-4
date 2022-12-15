@@ -1,4 +1,4 @@
-package LabChallenge1;
+
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -54,7 +54,7 @@ public class QuizActivity extends JFrame {
     int score   =   0;
     String  stat;
 
-    public QuizActivity() {
+    public QuizActivity () {
         super("<QUIZ TITLE>");
 
         TitleOfQuiz = new JLabel("        QUIZ TITLE      ");
@@ -212,8 +212,7 @@ public class QuizActivity extends JFrame {
         Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setSize(340, 1000);
         Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setLocation(300, 300);
-        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.getContentPane()
-                .setBackground(new Color(100, 204, 255));
+        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.getContentPane().setBackground(new Color(100, 204, 255));
         Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setVisible(true);
     }
 

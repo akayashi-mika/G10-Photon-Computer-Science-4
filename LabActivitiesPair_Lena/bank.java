@@ -28,6 +28,7 @@ public class bank {
 
                 switch (option) {
                     case 1:
+                        if (balance < 0) System.out.println("You're in debt!");
                         System.out.println("Balance: " + balance);
                         break;
 
