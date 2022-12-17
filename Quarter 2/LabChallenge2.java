@@ -36,11 +36,30 @@ public class LabChallenge2 extends JFrame {
         handler handle  =   new handler();
         submitButton.addActionListener(handle);
     }
+    public static void main(String args[]) {
 
-    public static void main(String[] args) {
-
-        
-
+        LabChallenge3 hoho = new LabChallenge3();
+        hoho.setLayout(new FlowLayout(
+                FlowLayout.LEFT, 
+                50, 
+                25
+            )
+        );
+        // sets how components are displayed
+        hoho.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        hoho.setSize(
+            1000, 
+            1000
+        );
+        hoho.setLocation(300, 300);
+        hoho.setVisible(true);
+        hoho.getContentPane().setBackground(new Color(
+                0, 
+                100, 
+                100
+            )
+        );
+        hoho.setResizable(false);
     }
 
     private class handler implements ActionListener {
