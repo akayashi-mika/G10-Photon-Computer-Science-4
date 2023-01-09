@@ -1,10 +1,15 @@
 package LabQuiz1Pair_Nico_nico_niii;
 
-import java.awt.event.ActionListener;
+import java.awt.Color;
+import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
-import java.awt.*;
+import java.awt.event.ActionListener;
 
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 
 public class moneyConversion extends JFrame {
     double moneyPeso, moneyUSD, moneyEuro, moneySingaporeanDollar, moneyRinggit, moneyDirham;
