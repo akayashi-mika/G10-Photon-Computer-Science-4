@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Anagram",
+            "request": "launch",
+            "mainClass": "LabQuiz1Pair_Nico_nico_niii.Anagram",
+            "projectName": "G10-Photon-Computer-Science-4_af60495"
+        },
+        {
+            "type": "java",
             "name": "Launch moneyConversion",
             "request": "launch",
             "mainClass": "LabQuiz1Pair_Nico_nico_niii.moneyConversion",
