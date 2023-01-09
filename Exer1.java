@@ -13,7 +13,7 @@ public class Exer1 {
         int     units;
         int     tens;
         int     hundreds;
-
+        
         // It is necessary to first introduce the variables before we can use them to store our data/input
         // If diritsuhon mo lang siya na gamiton sa code mo without introducing it first, ma error lang na ang program mo
 
