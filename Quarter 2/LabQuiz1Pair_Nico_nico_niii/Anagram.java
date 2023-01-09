@@ -60,11 +60,11 @@ public class Anagram extends JFrame {
                 // get the word given by the user, and store it in a variable called "answer"
                 String answer = wordField.getText();
 
-                /* 
-                iterate through the loop to determine if the given word is found inside the 
-                array containing the valid answers for the given word
-                 */ 
-                
+                /*
+                 * iterate through the loop to determine if the given word is found inside the
+                 * array containing the valid answers for the given word
+                 */
+
                 for (int i = 0; i < wordSlice.length; i++) {
                     // If the user's answer is valid, execute these stuff
                     if (wordSlice[i].equalsIgnoreCase(answer)) {
@@ -79,7 +79,7 @@ public class Anagram extends JFrame {
                         scoreField.setText(Integer.toString(score));
 
                         /*
-                         * If the user has given all the possible valid answers, 
+                         * If the user has given all the possible valid answers,
                          * Then show a pop-up stating "You have won!"
                          */
                         if (score == wordSlice.length) {

@@ -1,5 +1,4 @@
 
-
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -23,7 +22,7 @@ public class QuizActivity extends JFrame {
     private JLabel eigthQuestion;
     private JLabel ninthQuestion;
     private JLabel tenthQuestion;
-    private JLabel  space;
+    private JLabel space;
 
     private JTextField firstAnswer;
     private JTextField secondAnswer;
@@ -51,16 +50,16 @@ public class QuizActivity extends JFrame {
     private JTextField Score;
     private JTextField Status;
 
-    int score   =   0;
-    String  stat;
+    int score = 0;
+    String stat;
 
-    public QuizActivity () {
+    public QuizActivity() {
         super("<QUIZ TITLE>");
 
         TitleOfQuiz = new JLabel("        QUIZ TITLE      ");
         add(TitleOfQuiz);
 
-        space   =   new JLabel("                         ");
+        space = new JLabel("                         ");
         add(space);
 
         firstQuestion = new JLabel("3+4\n");
@@ -70,7 +69,7 @@ public class QuizActivity extends JFrame {
         firstStatus = new JTextField("    ");
         add(firstStatus);
 
-        space   =   new JLabel("             ");
+        space = new JLabel("             ");
         add(space);
 
         secondQuestion = new JLabel("5+7\n");
@@ -80,11 +79,9 @@ public class QuizActivity extends JFrame {
         secondStatus = new JTextField("    ");
         secondStatus.setEditable(false);
         add(secondStatus);
-        
-        space   =   new JLabel("             ");
+
+        space = new JLabel("             ");
         add(space);
-
-
 
         thirdQuestion = new JLabel("4+1\n");
         add(thirdQuestion);
@@ -93,10 +90,9 @@ public class QuizActivity extends JFrame {
         thirdStatus = new JTextField("    ");
         thirdStatus.setEditable(false);
         add(thirdStatus);
-        
-        space   =   new JLabel("             ");
-        add(space);
 
+        space = new JLabel("             ");
+        add(space);
 
         fourthQuestion = new JLabel("7+3\n");
         add(fourthQuestion);
@@ -105,10 +101,9 @@ public class QuizActivity extends JFrame {
         fourthStatus = new JTextField("    ");
         fourthStatus.setEditable(false);
         add(fourthStatus);
-        
-        space   =   new JLabel("             ");
-        add(space);
 
+        space = new JLabel("             ");
+        add(space);
 
         fifthQuestion = new JLabel("5+6\n");
         add(fifthQuestion);
@@ -117,10 +112,9 @@ public class QuizActivity extends JFrame {
         fifthStatus = new JTextField("    ");
         fifthStatus.setEditable(false);
         add(fifthStatus);
-        
-        space   =   new JLabel("             ");
-        add(space);
 
+        space = new JLabel("             ");
+        add(space);
 
         sixthQuestion = new JLabel("9+2\n");
         add(sixthQuestion);
@@ -129,10 +123,9 @@ public class QuizActivity extends JFrame {
         sixthStatus = new JTextField("    ");
         sixthStatus.setEditable(false);
         add(sixthStatus);
-        
-        space   =   new JLabel("             ");
-        add(space);
 
+        space = new JLabel("             ");
+        add(space);
 
         seventhQuestion = new JLabel("2+5\n");
         add(seventhQuestion);
@@ -141,10 +134,9 @@ public class QuizActivity extends JFrame {
         seventhStatus = new JTextField("    ");
         seventhStatus.setEditable(false);
         add(seventhStatus);
-        
-        space   =   new JLabel("             ");
-        add(space);
 
+        space = new JLabel("             ");
+        add(space);
 
         eigthQuestion = new JLabel("4+60\n");
         add(eigthQuestion);
@@ -153,10 +145,9 @@ public class QuizActivity extends JFrame {
         eigthStatus = new JTextField("    ");
         eigthStatus.setEditable(false);
         add(eigthStatus);
-        
-        space   =   new JLabel("             ");
-        add(space);
 
+        space = new JLabel("             ");
+        add(space);
 
         ninthQuestion = new JLabel("2+64\n");
         add(ninthQuestion);
@@ -165,10 +156,9 @@ public class QuizActivity extends JFrame {
         ninthStatus = new JTextField("    ");
         ninthStatus.setEditable(false);
         add(ninthStatus);
-        
-        space   =   new JLabel("             ");
-        add(space);
 
+        space = new JLabel("             ");
+        add(space);
 
         tenthQuestion = new JLabel("16+52\n");
         add(tenthQuestion);
@@ -177,10 +167,9 @@ public class QuizActivity extends JFrame {
         tenthStatus = new JTextField("    ");
         tenthStatus.setEditable(false);
         add(tenthStatus);
-        
-        space   =   new JLabel("             ");
-        add(space);
 
+        space = new JLabel("             ");
+        add(space);
 
         Submit = new JButton("Submit");
         handler handle = new handler();
@@ -190,18 +179,14 @@ public class QuizActivity extends JFrame {
         Score = new JTextField("   ");
         Score.setBorder(BorderFactory.createCompoundBorder(
                 BorderFactory.createLineBorder(Color.black),
-                BorderFactory.createEmptyBorder(20, 20, 20, 20)
-            )
-        );
+                BorderFactory.createEmptyBorder(20, 20, 20, 20)));
         Score.setEditable(false);
         add(Score);
 
         Status = new JTextField("   ");
         Status.setBorder(BorderFactory.createCompoundBorder(
                 BorderFactory.createLineBorder(Color.black),
-                BorderFactory.createEmptyBorder(20, 20, 20, 20)
-            )
-        );
+                BorderFactory.createEmptyBorder(20, 20, 20, 20)));
         Status.setEditable(false);
         add(Status);
     }
@@ -212,7 +197,8 @@ public class QuizActivity extends JFrame {
         Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setSize(340, 1000);
         Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setLocation(300, 300);
-        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.getContentPane().setBackground(new Color(100, 204, 255));
+        Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.getContentPane()
+                .setBackground(new Color(100, 204, 255));
         Hi_sir_kadto_ka_sa_amon_mag_December_4_Pyesta_sir_yieeee.setVisible(true);
     }
 
@@ -289,15 +275,14 @@ public class QuizActivity extends JFrame {
                     tenthStatus.setText("X");
                 }
 
-                
                 if (score >= 8) {
-                    stat    =   "SMARTTTT";
+                    stat = "SMARTTTT";
                 } else if (score >= 4) {
-                    stat    =   "Smart Enough to pass";
+                    stat = "Smart Enough to pass";
                 } else if (score >= 2) {
-                    stat    =   "get gud";
+                    stat = "get gud";
                 } else {
-                    stat    =   "hopeless";
+                    stat = "hopeless";
                 }
                 Status.setText(stat);
                 Score.setText(Integer.toString(score));
