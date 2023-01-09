@@ -1,20 +1,12 @@
 package LabQuiz1Pair_Nico_nico_niii;
 
 import java.awt.event.ActionListener;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JTextField;
-import java.awt.FlowLayout;
-
-import java.awt.Color;
 import java.awt.event.ActionEvent;
+import java.awt.*;
 
+import javax.swing.*;
 
 public class moneyConversion extends JFrame {
-    private static final String FlowLayout = null;
     double moneyPeso, moneyUSD, moneyEuro, moneySingaporeanDollar, moneyRinggit, moneyDirham;
     private JTextField currencyPesoField = new JTextField(18);
     private JLabel currencyPesoLabel = new JLabel("Amount in Philippine Peso (PHP): ");
