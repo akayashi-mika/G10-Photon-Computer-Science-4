@@ -1,7 +1,6 @@
 package LabQuiz1Pair_Nico_nico_niii;
 
 import java.awt.event.ActionListener;
-import java.lang.reflect.Field;
 import java.awt.event.ActionEvent;
 import java.awt.*;
 import javax.swing.*;
@@ -10,10 +9,8 @@ public class Anagram extends JFrame {
     private JLabel wordLabel = new JLabel("The 4 letter word is \"ISDA\"");
     private JTextField wordField = new JTextField(18);
     private JButton submitButton = new JButton("Submit");
-    private JLabel space = new JLabel("                         ");
-    private JTextField scoreField = new JTextField(8);
     private JLabel scoreLabel = new JLabel("Score: ");
-    private JTextField answerField;
+    private JTextField scoreField = new JTextField(8);
 
     public static void main(String[] args) {
         Anagram Anagram = new Anagram();
@@ -34,9 +31,6 @@ public class Anagram extends JFrame {
             "AIDS",
     };
 
-    // Array of text fields for user input
-    private JTextField[] inputFields;
-
     Anagram() {
         add(wordLabel);
         add(wordField);
@@ -46,16 +40,6 @@ public class Anagram extends JFrame {
         add(submitButton);
         handler handle = new handler();
         submitButton.addActionListener(handle);
-
-        // inputFields=new JTextField[wordSlice.length];
-        // for (i = 0; i < wordSlice.length; i++) {
-        // JLabel label = new JLabel("Combination " + (i + 1) + ":");
-        // inputFields[i] = new JTextField(20);
-        // inputFields[i].addActionListener(handle);
-        // add(label);
-        // add(inputFields[i]);
-        // add(space);
-        // };
     }
 
     private class handler implements ActionListener {
@@ -65,13 +49,8 @@ public class Anagram extends JFrame {
                 for (int i = 0; i < wordSlice.length; i++) {
                     if (wordSlice[i].equalsIgnoreCase(answer)) {
                         score++;
-
                         wordSlice[i] = "";
-                        JTextField answerField = new JTextField(8);
-                        add(answerField);
-                        answerField.setText(answer);
                         scoreField.setText(Integer.toString(score));
-
                         if (score == wordSlice.length) {
                             JOptionPane.showMessageDialog(null, "You have won!");
                         }
