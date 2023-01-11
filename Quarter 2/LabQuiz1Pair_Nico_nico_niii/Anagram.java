@@ -26,6 +26,7 @@ public class Anagram extends JFrame {
     private JButton submitButton = new JButton("Submit");
     private JLabel scoreLabel = new JLabel("Score: ");
     private JTextField scoreField = new JTextField(8);
+    private JLabel space = new JLabel("                         ");
 
     public static void main(String[] args) {
         Anagram Anagram = new Anagram();
@@ -79,7 +80,12 @@ public class Anagram extends JFrame {
 
                         // Change the answer inside the array to an empty string
                         // Indicating that the answer has already been used
+                        JTextField stuff = new JTextField(8);
+                        stuff.setText(answer);
+                        add(stuff);
+                        add(space);
                         wordSlice[i] = "";
+
 
                         // Set the user's score
                         scoreField.setText(Integer.toString(score));
