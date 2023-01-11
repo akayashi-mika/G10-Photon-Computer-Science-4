@@ -4,9 +4,9 @@ import java.awt.*;
 import javax.swing.*;
 
 public class sirTanUWU extends JFrame {
-    private static JButton sirTanMyLoafs = new JButton("sir tan bbghorl kadto di");
+    private static JButton sirTanMyLoafs = new JButton("lena is");
     private static JButton Tanskisedesu = new JButton("shiou simp");
-    private static JButton konokokorowadaisukedesutan_sama = new JButton("hahaha my grades in physics after sir reads this 📉");
+    private static JButton konokokorowadaisukedesutan_sama = new JButton("hahaha my grades in comp after sir reads this 📉");
     private static JButton submitToMeBBGHORL = new JButton("Submit");
     private static JLabel questionForYouhehehe;
     private static JTextField ansorrrrrr;
